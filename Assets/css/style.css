@@ -1,5 +1,7 @@
 :root{
     --title-movie-color: #808080;
+    --TxtColor: #fff;
+    --GrayColor: gray;
 }
 
 *{
@@ -53,7 +55,7 @@ body{
 
 .first_section h2{
     margin-top: 25px;
-    color: gray;
+    color: var(--GrayColor);
     font-size: 30px;
 }
 
@@ -61,7 +63,7 @@ body{
     margin-top: 20px;
     text-align: left;
     font-size: 25px;
-    color: gray;
+    color: var(--GrayColor);
 }
 
 .first_section img{
@@ -133,7 +135,7 @@ body{
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    color: gray;
+    color: var(--GrayColor);
     font-size: 20px;
 }
 
@@ -165,6 +167,6 @@ body{
     top: -120px;
     font-size: 25px;
     margin-left: 180px;
-    color: gray;
+    color: var(--GrayColor);
     letter-spacing: 2px;
 }
