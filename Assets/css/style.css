@@ -1,0 +1,146 @@
+:root{
+    --title-movie-color: #808080;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(233, 230, 230);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first_section, .second_section{
+    display: block;
+    position: relative;
+    left: 500px;
+    grid-column: 2;
+    margin: 50px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    padding: 20px;
+}
+
+.third_section{
+    display: block;
+    position: relative;
+    left: 500px;
+    grid-column: 2;
+    margin: 50px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    padding: 20px 40px;
+} 
+
+.first_section{
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+} 
+
+.first_section h1{
+    color: #d42a2a;
+    font-size: 50px;
+}
+
+.first_section h2{
+    margin-top: 25px;
+    color: gray;
+    font-size: 30px;
+}
+
+.first_section p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 25px;
+    color: gray;
+}
+
+.first_section img{
+    position: relative;
+    /* left: 40%; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid lightgray;
+}
+
+.first_section button{
+    position: relative;
+    top: 50px;
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color: #d42a2a;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.first_section button:hover{
+    background-color: #fff;
+    color: gray;
+    border: 3px solid lightcoral;
+}
+
+.second_section ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.second_section i{
+    font-size: 40px;
+}
+
+.second_section ul a{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+
+.third_section .title{
+    text-align: center;
+    font-size: 35px;
+    color: var(--title-movie-color);
+    margin-bottom: 25px;
+}
+
+.third_section img{
+    position: relative;
+    top: 105px;
+    width: 25%;
+}
+
+.third_section .movie-title{
+    position: relative;
+    top: -130px;
+    left: 100px;
+    text-align: center;
+    color: var(--title-movie-color);
+}
+
+.third_section p{
+    text-align: left;
+    /* width: 75%; */
+    position: relative;
+    top: -120px;
+    font-size: 25px;
+    margin-left: 180px;
+    color: gray;
+    letter-spacing: 2px;
+}
